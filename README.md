@@ -1,8 +1,9 @@
-#seq2seq-nmt
+# seq2seq-nmt
 
 使用 Sequence to Sequence Learing（Seq2Seq）实现神经机器翻译（Neural Machine Translation，NMT）。
 
 ## 知识点
+
 - LSTM
 - GRU
 - Attention 机制
@@ -10,4 +11,10 @@
 - beam search
 - bleu 指标
 - perplexity
+
+## TensorFlow API
+
+- tf.nn.bidirectional_dynamic_rnn
+- tf.get_variable
+- tf.concat
 
